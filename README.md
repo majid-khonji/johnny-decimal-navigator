@@ -22,11 +22,12 @@ Or, you may do it manually.
 2. Copy `functions/jd.fish` to your Fish functions directory, usually located at `~/.config/fish/functions/`.
 
 ## Configuration
-Add a keyboard shortcut to your Fish configuration file (`~/.config/fish/config.fish`) to use the `jd` command:
+The default shortcut is  Ctrl+O.
+You can add a different keyboard shortcut to your Fish configuration file (`~/.config/fish/config.fish`) to use the `jd` command:
 ```fish
-bind \co jd
+bind \ca jd
 ```
-This will bind the Ctrl+O shortcut to the jd function, allowing quick activation within the terminal.
+This will bind the Ctrl+A.
 
 
 
