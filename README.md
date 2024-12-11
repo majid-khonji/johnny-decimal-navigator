@@ -10,7 +10,12 @@ A command-line tool for the Fish shell that leverages the power of FZF to enable
 
 ## Prerequisites
 - Fish shell
-- FZF
+- [Fish shell](https://fishshell.com/)
+- [Fisher](https://github.com/jorgebucaran/fisher) (to install plugins):
+`curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher`
+- [Shell GPT](https://github.com/TheR1D/shell_gpt)
+  - An API key is required
+- FZF: `sudo apt install fzf` or `brew install fzf`
 
 ## Installation
 You can install the package with `fisher`:
