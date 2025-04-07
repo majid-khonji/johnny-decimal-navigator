@@ -33,5 +33,8 @@ bind \ca jd
 This will bind the Ctrl+A.
 
 
-
+The default directory is `~/Dropbox/`, but can change it by setting the `JD_HOME` environment variable in your Fish configuration file (`~/.config/fish/config.fish`):
+```fish
+set -x JD_HOME ~/my_custom_directory
+```
 
