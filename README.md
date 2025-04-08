@@ -37,4 +37,7 @@ The default directory is `~/Dropbox/`, but can change it by setting the `JD_HOME
 ```fish
 set -x JD_HOME ~/my_custom_directory
 ```
-
+If you want to exclude a directory from the search, you can set the `JD_EXCLUDE` environment variable in your Fish configuration file (`~/.config/fish/config.fish`):
+```fish
+set -x JD_EXCLUDE "~/my_custom_directory/dir1"
+```
